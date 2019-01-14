@@ -1,0 +1,19 @@
+{
+    "name": "geobas/design-pattens-php",
+    "description": "Design Patterns in PHP",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "geobas",
+            "email": "ksenera@yahoo.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "GeoBas\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
