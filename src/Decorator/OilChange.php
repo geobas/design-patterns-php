@@ -8,18 +8,22 @@ class OilChange implements CarService
 {
 	protected $carService;
 
-	function __construct($carService)
+	private $number = 10;
+
+	private $description = ', and oil change';
+
+	function __construct($carService = null)
 	{
-		$this->carService = $carService;
+		if ( !empty($carService) ) $this->carService = $carService;
 	}
 
 	public function getCost()
 	{
-		return 10 + $this->carService->getCost();
+		return !empty($this->carService) ? $this->carService->getCost() + $this->number : $this->number;
 	}
 
 	public function getDescription()
 	{
-		return $this->carService->getDescription() . ', and oil change';
+		return !empty($this->carService) ? $this->carService->getDescription() . $this->description : $this->description;
 	}
 }
