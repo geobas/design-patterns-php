@@ -9,7 +9,9 @@
             "email": "ksenera@yahoo.com"
         }
     ],
-    "require": {},
+    "require": {
+        "filp/whoops": "^2.2@dev"
+    },
     "autoload": {
         "psr-4": {
             "GeoBas\\": "src/"
