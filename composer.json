@@ -10,7 +10,8 @@
         }
     ],
     "require": {
-        "filp/whoops": "^2.2@dev"
+        "filp/whoops": "^2.2@dev",
+        "symfony/var-dumper": "^4.3@dev"
     },
     "autoload": {
         "psr-4": {
