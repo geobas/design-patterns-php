@@ -5,6 +5,7 @@
 * Decorator
 * Adapter
 * Template Method
+* Strategy
 
 ## Installation
 * Type `composer install` the first time to get dependencies
