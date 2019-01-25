@@ -1,12 +1,8 @@
 <?php
 
-require 'vendor/autoload.php';
+require_once 'src/bootstrap.php';
 
 use GeoBas\Decorator\{BasicInspection, OilChange, TireRotation};
-
-$whoops = new \Whoops\Run;
-$whoops->pushHandler(new \Whoops\Handler\PrettyPageHandler);
-$whoops->register();
 
 echo (new TireRotation(
 		new OilChange(

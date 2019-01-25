@@ -1,12 +1,8 @@
 <?php
 
-require 'vendor/autoload.php';
+require_once 'src/bootstrap.php';
 
 use GeoBas\Responsibility\{Alarm, Lights, Locks, HomeStatus};
-
-$whoops = new \Whoops\Run;
-$whoops->pushHandler(new \Whoops\Handler\PrettyPageHandler);
-$whoops->register();
 
 $locks = new Locks;
 $lights = new Lights;

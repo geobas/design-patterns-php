@@ -1,12 +1,8 @@
 <?php
 
-require 'vendor/autoload.php';
+require_once 'src/bootstrap.php';
 
 use GeoBas\Adapter\{Book, Person, Kindle, eReaderAdapter, Nook};
-
-$whoops = new \Whoops\Run;
-$whoops->pushHandler(new \Whoops\Handler\PrettyPageHandler);
-$whoops->register();
 
 echo (new Person)->read(new Book);
 echo '<p>';
