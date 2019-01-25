@@ -7,6 +7,7 @@
 * Template Method
 * Strategy
 * Chain of Responsibility
+* Singleton
 
 ## Installation
 * Type `composer install` the first time to get dependencies
