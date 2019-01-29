@@ -8,6 +8,7 @@
 * Strategy
 * Chain of Responsibility
 * Singleton
+* Factory
 
 ## Installation
 * Type `composer install` the first time to get dependencies
