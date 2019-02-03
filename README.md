@@ -9,6 +9,7 @@
 * Chain of Responsibility
 * Singleton
 * Factory
+* Specification
 
 ## Installation
 * Type `composer install` the first time to get dependencies
