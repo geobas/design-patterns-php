@@ -10,6 +10,7 @@
 * Singleton
 * Factory
 * Specification
+* Observer
 
 ## Installation
 * Type `composer install` the first time to get dependencies
